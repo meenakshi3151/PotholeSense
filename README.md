@@ -1,10 +1,10 @@
-# 🚗 PotholeSense – Pothole Detection System  
+# PotholeSense – Pothole Detection System  
 
-**RoadGuard** is a web application built using **Streamlit** that predicts the presence of **potholes** on roads using motion sensor data from **accelerometers** and **gyroscopes**. It leverages a **Machine Learning pipeline (KNN model)** to analyze sensor readings and classify whether a road surface contains a pothole or not.
+**PotholeSense** is a web application built using **Streamlit** that predicts the presence of **potholes** on roads using motion sensor data from **accelerometers** and **gyroscopes**. It leverages a **Machine Learning pipeline (KNN model)** to analyze sensor readings and classify whether a road surface contains a pothole or not.
 
 ---
 
-## ⚙️ Features  
+## Features  
 - Detects potholes using a trained **KNN-based ML pipeline** (`pothole_detection_model_pipeline.joblib`)  
 - Automatically applies **feature engineering** and **data scaling** through the pipeline  
 - Provides an **interactive Streamlit interface** for real-time sensor data input  
@@ -37,7 +37,7 @@ The model predicts potholes based on the following motion sensor readings:
 
 ---
 
-## 🖥️ Installation & Setup  
+## Installation & Setup  
 
 ```bash
 # 1. Clone the repository
