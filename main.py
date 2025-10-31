@@ -24,9 +24,9 @@ with col1:
     speed = st.number_input("Speed (m/s)", min_value=0.0, format="%.3f")
     accelerometerX = st.number_input("Accelerometer X", format="%.6f")
     accelerometerY = st.number_input("Accelerometer Y", format="%.6f")
-    accelerometerZ = st.number_input("Accelerometer Z", format="%.6f")
 
 with col2:
+    accelerometerZ = st.number_input("Accelerometer Z", format="%.6f")
     gyroX = st.number_input("Gyro X", format="%.6f")
     gyroY = st.number_input("Gyro Y", format="%.6f")
     gyroZ = st.number_input("Gyro Z", format="%.6f")
