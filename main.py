@@ -30,8 +30,9 @@ with col2:
     gyroX = st.number_input("Gyro X", format="%.6f")
     gyroY = st.number_input("Gyro Y", format="%.6f")
     gyroZ = st.number_input("Gyro Z", format="%.6f")
-    acclermeter_magnitude = st.number_input("Accelerometer Magnitude", min_value=0.0, format="%.6f")
-    gyro_magnitude = st.number_input("Gyro Magnitude", min_value=0.0, format="%.6f")
+
+acclermeter_magnitude = np.sqrt(accelerometerX**2 + accelerometerY**2 + accelerometerZ**2)
+gyro_magnitude = np.sqrt(gyroX**2 + gyroY**2 + gyroZ**2)
 
 st.markdown("---")
 if st.button("Detect Pothole"):
